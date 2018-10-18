@@ -11,4 +11,12 @@ $(document).ready(function ()
                     scrollTop: scroll.offset().top - 70
                 }, 1000);
     });
+
+    $('.button-play').click(function ()
+    {
+        var target = $('#About');
+        $('html, body').animate({
+            scrollTop: target.offset().top - 70
+        }, 1000);
+    });
 });
